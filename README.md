@@ -52,7 +52,7 @@ Step 1: Process data files by executing "./data/0. load chinese data 1d multinde
 
 Step 2: Execute the jupyter notebook files ("XX.ipynb") in the project root directory, for example:
 
-- 10+1assets-drl-portfolio-Longing-stableBaseline3-PPO-VGG1-softmax-maxAVGSharpe.ipynb : (This notebook implements the paper's methodology.)
+- 10+1assets-drl-portfolio-Longing-stableBaseline3-PPO-VGG1-softmax-maxAVGSharpe.ipynb
 - 12+1assets-drl-portfolio-Longing-stableBaseline3-SAC-ViT-softmax-maxAVGSharpe-patchsize3x3.ipynb: (This notebook requires intensive computational resources.)
 
 <u>The training process often requires multiple complete restarts to achieve satisfactory backtesting performance, even with confirmed convergence of training rewards in each attempt. A single successful outcome may necessitate numerous training attempts from scratch.</u>
