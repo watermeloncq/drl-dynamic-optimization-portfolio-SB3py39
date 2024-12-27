@@ -6,6 +6,10 @@
 
 https://arxiv.org/abs/2412.18563
 
+In addition to the implementation code presented in the paper, this project provides supplementary code with the following algorithmic implementations for testing and learning purposes:
+- SAC+ViT
+- PPO+Resnet
+- TRPO+VGG
 
 
 This trading environment is developed based on [wassname](https://github.com/wassname)'s [rl-portfolio-management implementation](https://github.com/wassname/rl-portfolio-management), with improvements and migration to the Stable-Baselines3 (SB3) reinforcement learning framework. 
